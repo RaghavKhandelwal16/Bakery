@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container-fluid .navbar-brand img{
+  width: 50px;
+  height: 50px;
+}
+.btn-btn-outline{
+  text-decoration: none;
+  background-color: #ff7f50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.btn-btn-outline:hover {
+  background-color: #ff6347;
+}
+.banner {
+  text-align: center;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+/* Contact form styles */
+/*.contactcontent{
+  max-width: 30%;
+  margin-left: 35%;
+}
+.contact-form {
+  padding: 40px 0;
+  margin: 0 10px;
+}
+
+.form-container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display:block;
+  font-weight: bold;
+}
+.form-container input, textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  resize: vertical;
+}
+.submit-button {
+  padding: 10px 20px;
+  background-color: #0dac30;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+*/
+
+/*chatgpt*/
+.contactkacontent {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #ff7f50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6347;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .contactkacontent {
+      max-width: 90%;
+  }
+}
